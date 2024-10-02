@@ -1,0 +1,99 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script  src="https://unpkg.com/scrollreveal"></script>    <title>My Portofolio</title>
+</head>
+<body>
+     <navbar class="menu" id="navbar">
+         <ul id="menu-list">
+            <li>
+              </li>
+            <li>
+            <button id="menu"> Menu</button>
+           
+           </li>
+            <li>
+               <a href="#" id="a1">HOME</a>
+            </li>
+            <li>
+               <a href="https://github.com/saracgr" id="a2">GITHUB</a>
+            </li>
+            <li>
+               <a href="#" id="a3" target="_blank">CONTACT</a>
+            </li>
+         </ul>
+      </navbar>
+   
+   <div class="top">
+   
+   <header class="headers" id='welcome-section'>
+   <h1>SARA'S PORTOFOLIO</h1>
+   <p>These are my last projects</p>
+   </header>
+
+   
+   <div class="project1 project" id="projects">
+      <h2 class="project-tile">MAGAZINE</h2>
+      <a href="https://saracgr.github.io/Magazine" class="click">CLICK HERE</a>
+   </div>
+   <div class="project2 project" id="projects">
+      <h2 class="project-tile">COUNTRY GALLERY</h2>
+      <a href=" https://saracgr.github.io/Countries-Gallery" class="click">CLICK HERE</a>
+   </div>
+</div>
+
+<div class="middle">
+   
+   <div class="features">
+<div class="feature1">
+<a href=""><h3>GITHUB</h3></a>
+<p>Brand New</p>
+</div>
+
+<div class="feature2">
+   <a id ='profile-link' href="https://github.com/saracgr" target="_blank"><h3>GITHUB</h3></a>
+   <p>Brand New</p>
+</div>
+
+<div class="feature3">
+   <a href="profile-link"><h3>GITHUB</h3></a>
+   <p>Brand New</p>
+</div>
+     
+   </div>
+
+</div>
+</div>
+
+
+
+
+</div>
+<footer>
+<p>Sara Carvalho 2024</p>
+</footer>
+  <script>
+
+    ScrollReveal().reveal('.feature1',{ delay: 500 });
+    ScrollReveal().reveal('.feature2',{ delay: 1000 });
+    ScrollReveal().reveal('.feature3',{ delay: 1500 });
+  
+
+
+
+    $('#menu').on( "click", function() {
+       
+            $( "#a1" ).fadeIn(1000);
+            $( "#a2" ).fadeIn(2000);
+            $( "#a3" ).fadeIn(3000);
+        
+        });
+
+  </script>
+
+ 
+</body>
+</html>
